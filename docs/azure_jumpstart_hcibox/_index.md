@@ -8,8 +8,6 @@ weight: 5
 
 HCIBox is a turnkey solution that provides a complete sandbox for exploring [Azure Stack HCI](https://learn.microsoft.com/azure-stack/hci/overview) capabilities and hybrid cloud integration in a virtualized environment. HCIBox is designed to be completely self-contained within a single Azure subscription and resource group, which will make it easy for a user to get hands-on with Azure Stack HCI and [Azure Arc](https://learn.microsoft.com/azure/azure-arc/overview) technology without the need for physical hardware.
 
- > __NOTE: Currently, Jumpstart HCIBox is in public preview.__
-
 ![Screenshot showing HCIBox architecture diagram](./arch_full.png)
 
 ### Use cases
@@ -381,6 +379,8 @@ Azure Stack HCI supports [VM provisioning through the Azure portal](https://lear
 HCIBox includes a deployment of a Windows Admin Center (WAC) gateway server. Windows Admin Center can also be used from the Azure portal. Open the [HCIBox Windows Admin Center documentation](https://azurearcjumpstart.io/azure_jumpstart_hcibox/WAC/) to get started.
 
 ![Screenshot showing Windows Admin Center](./wac_portal.png)
+
+  > __NOTE: [Registering Windows Admin Center with Azure](https://learn.microsoft.com/azure-stack/hci/manage/register-windows-admin-center) is not supported in HCIBox.__
 
 ### Azure Kubernetes Service
 
